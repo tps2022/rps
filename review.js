@@ -201,16 +201,18 @@ const perscholas = ['Amira', 'Arely', 'Jonathan']
 const fruits = ['apple', 'banana', 'orange']
 
 // Print banana
-console.log(fruits[11])
+console.log(fruits[1])
 
 // Let's turn it up a notch. I won't tell you what array methods to use. 
 
 // Join all the elements of the array into a string separated by a space.
 
 // Remove orange
+removeFruit = fruits.pop(2);
 
 // Add strawberry, kiwi, and grapes at the end
 
+removeFruit = fruits.push('strawberry, kiwi, grapes');
 // Remove apple
 
 // Add mango at the beginning of the array
@@ -410,7 +412,9 @@ bulbasaur.sound + 7
 bulbasaur[order]= 1
 
 // Print an array that contains every single properties in bulbasaur
+console.log(bulbasaur.name, bulbasaur.abilities, bulbasaur.moves, bulbasaur.sound)
 
 // Print every single properties one by one in the console
-
+console.log(bulbasaur.name, bulbasaur.abilities, bulbasaur.moves, bulbasaur.sound)
 // Print an array that contains every single values in bulbasaur
+console.log(bulbasaur.name, bulbasaur.abilities[0], bulbasaur.moves.length-1, bulbasaur.sound())
