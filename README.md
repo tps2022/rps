@@ -24,9 +24,3 @@ Yes
 #### Were there challenges?
 
 The challenges were in step 6 which required creating a function to play the game up to 5 times and keep score.
-
-
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
